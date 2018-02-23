@@ -13,15 +13,15 @@ class Api::ReportsController < ApplicationController
       render json: { errors: { message: "FAILED TO POST REPORT"}}
     end
   end
-
-  def update
-    @report = Report.find_by(id: params[:id])
-    if @report.update(report_params)
-      render json: @report
-    else
-      render json: { errors: { message: "FAILED TO POST REPORT"}}
-    end
-  end
+  # 
+  # def update
+  #   @report = Report.find_by(id: params[:id])
+  #   if @report.update(report_params)
+  #     render json: @report
+  #   else
+  #     render json: { errors: { message: "FAILED TO POST REPORT"}}
+  #   end
+  # end
 
 private
 
