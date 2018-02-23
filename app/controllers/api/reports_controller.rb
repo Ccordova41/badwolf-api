@@ -26,8 +26,7 @@ class Api::ReportsController < ApplicationController
 private
 
   def report_params
-    params.require(:report).permit(:name, :doctor_id, :home_planet, :first_appearance
-laterst_appearance)
+    params.require(:report).permit(:name, :doctor_id, :home_planet, :first_appearance, :latest_appearance)
   end
 
 end
