@@ -43,7 +43,7 @@ private
   end
 
   def report_params
-    params.require(:report).permit(:name, :doctor_id, :home_planet, :first_appearance, :latest_appearance)
+    params.require(:report).permit(:name, :doctor_id, :fact, :job )
   end
 
 end
