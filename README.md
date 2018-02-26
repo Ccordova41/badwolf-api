@@ -1,24 +1,19 @@
-# README
+# Doctor Who Universe!!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+Need more Doctor Who in your life?! Well, you got it here!
+Sourced by Giphy
 
-Things you may want to cover:
+ ## Start App
 
-* Ruby version
+Welcome to the API side of the Doctor Who Universe app.
 
-* System dependencies
+Please clone this app, as well as the Client side repository for the app, which can be found at: [https://github.com/Ccordova41/doctor-who-app-api]
 
-* Configuration
+ Please run the API with `rails s -p 3001`. Otherwise, it will not run.
 
-* Database creation
+ The client side of the app will run with `yarn install && yarn start` or `npm install && start`.
 
-* Database initialization
+ ## License
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ Copyright 2018 Catherine Cordova. Full license available at [https://github.com/Ccordova41/doctor-who-app-api/LICENSE]  
