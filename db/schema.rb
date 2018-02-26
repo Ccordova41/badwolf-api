@@ -10,14 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180223203452) do
+ActiveRecord::Schema.define(version: 20180226175829) do
 
   create_table "reports", force: :cascade do |t|
     t.string "name"
     t.string "doctor_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "home_planet"
     t.string "first_appearance"
     t.string "latest_appearance"
   end
